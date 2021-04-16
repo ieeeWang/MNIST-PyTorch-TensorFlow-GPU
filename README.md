@@ -3,17 +3,17 @@
 The [MNIST](http://yann.lecun.com/exdb/mnist/) dataset of handwritten digits for image classification using CNNs.
 
 
-**Dataset download**   
-- For Pytorch users, it is easy to load data using TensorFlow built-in method.
+**Dataset**   
+- For TensorFlow users, download is not needed, just load data in the code using TensorFlow built-in method.
 
 - For Pytorch users, note that many old online/official examples have problems!
-There has been a lot of trouble (e.g., 503 error) with the MNIST hosted on http://yann.lecun.com/exdb/mnist/ (by default in torchvision.datasets.MNIST). Therefore pytorch got permission and hosting it now on amazon AWS.
-For window users, it is much easier just go to www.di.ens.fr/~lelarge/MNIST.tar.gz, download it, and unzip the file. Then you will have MNIST folder, which you put into the root directory for dataloader, e.g., ./data/
+There has been trouble (e.g., 503 error) with the MNIST hosted on http://yann.lecun.com/exdb/mnist/ (by default if one uses torchvision.datasets.MNIST to download). Therefore pytorch got permission and hosting it now on amazon AWS.
+For window users, it is much easier just go to www.di.ens.fr/~lelarge/MNIST.tar.gz, download it, and unzip the file. Then you will have MNIST folder, which you put into the root directory (e.g., ./data/) for dataloader.
 
 
 **Dependencies**
 - TensorFlow2.x
-- pytorch > 1.0
+- Pytorch > 1.0
 - Numpy
 
 

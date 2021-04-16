@@ -2,6 +2,12 @@
 
 The [MNIST](http://yann.lecun.com/exdb/mnist/) dataset of handwritten digits for image classification using CNNs.
 
+**Speed** 
+Using my laptop with a GPU (Quadro M1200, Compute Capability = 5.0) to run the LeNet5, the speed of of two framworks as follow.
+
+- TensorFlow: ~33s (10 epochs), see 'main_tf2x.ipynb' 
+- Pytorch: ~92s (10 epochs), see 'main_pytorch.ipynb'
+
 
 **Dataset**   
 - For TensorFlow users, download is not needed, just load data in the code using TensorFlow built-in method.

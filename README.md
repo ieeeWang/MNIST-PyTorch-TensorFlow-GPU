@@ -1,9 +1,9 @@
 # MNIST-PyTorch-TensorFlow-GPU
-
-The [MNIST](http://yann.lecun.com/exdb/mnist/) dataset of handwritten digits for image classification using CNNs.
+This repo uses an example of implementing CNNs to show the difference between two popular deeplearning framworks.
+The datase used here is the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset, handwritten digits for image classification.
 
 **Speed**  
-Using my laptop with a GPU (Quadro M1200, Compute Capability = 5.0) to run the LeNet5, the speed of of two framworks as follow.
+Using my laptop with a GPU (Quadro M1200, Compute Capability = 5.0) to run the LeNet5 (~40k parameters, a CNN with two conv layers), the speed of using two framworks is as follow.
 
 - TensorFlow: ~33s (10 epochs), see 'main_tf2x.ipynb' 
 - PyTorch: ~92s (10 epochs), see 'main_pytorch.ipynb'
@@ -24,7 +24,7 @@ For window users, it is much easier just go to www.di.ens.fr/~lelarge/MNIST.tar.
 
 
 **References**   
-- [A keras implementation for tensorflow](https://keras.io/examples/vision/mnist_convnet/)
-- [The official pytorch MNIST Example](https://github.com/pytorch/examples/tree/master/mnist)
-- [The pytorch tutorial on MNIST](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html#sphx-glr-beginner-blitz-neural-networks-tutorial-py)
+- [A keras-tensorflow implementation of CNN for MNIST](https://keras.io/examples/vision/mnist_convnet/)
+- [An official pytorch MNIST Example](https://github.com/pytorch/examples/tree/master/mnist)
+- [The official pytorch tutorial on MNIST](https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html#sphx-glr-beginner-blitz-neural-networks-tutorial-py)
 - [LeNet5-paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf)

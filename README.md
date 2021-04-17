@@ -1,6 +1,5 @@
 # MNIST-PyTorch-TensorFlow-GPU
-This repo uses an example of implementing CNNs to show the difference between two popular deeplearning framworks.
-The datase used here is the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset, handwritten digits for image classification.
+This repo uses the [MNIST](http://yann.lecun.com/exdb/mnist/) (handwritten digits for image classification) as an example to implement CNNs and to show the difference between two popular deeplearning framworks, PyTorch and TensorFlow.  
 
 **Speed**  
 Using my laptop with a GPU (Quadro M1200, Compute Capability = 5.0) to run the LeNet5 (~40k parameters, a CNN with two conv layers), the speed of using two framworks is as follow.
